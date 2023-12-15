@@ -44,7 +44,7 @@ const LoginForm = () => {
   const submitForm = async (event) => {
     event.preventDefault();
     const userDetails = { email, password };
-    const url = 'http://localhost:4000/login';
+    const url = 'https://admin-dv4k.vercel.app/login';
 
     try {
       const response = await axios.post(url, userDetails);
