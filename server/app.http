@@ -1,0 +1,24 @@
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+    "email": "evv.pedagadi365@gmail.com",
+    "password": "Pevv#1996"
+
+}
+
+
+
+####
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "email": "evv.pedagadi365@gmail.com",
+    "password": "Pevv#1996"
+
+}
+
+####
+GET http://localhost:4000/media
